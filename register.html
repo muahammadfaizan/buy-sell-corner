@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+     <!-- navbar started -->
+     
+     <div class="navbar bg-primary">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">Buy / Sells Corner</a>
+        </div>
+    </div>
+
+
+    <!-- navbar ended -->
+
+
+
+           <!-- form field -->
+          
+    <div class="flex justify-center m-[6vh]">
+        <form id="form">
+
+          <div class="text-center font-bold text-2xl">
+            <h1>REGISTER</h1>
+          </div>
+
+          <div class="items-center justify-center border rounded-3xl px-[18px] h-[auto] w-[100%] bg-[#ffeef2] mt-3">
+            
+          <label class="form-control w-full max-w-xs">
+            <div class="label">
+              <span class="label-text">Firstname
+              </span>
+            </div>
+            <input type="text" placeholder="Enter your firstname" class="input input-bordered w-full max-w-xs" id="firstname" required>
+            
+            <div class="label">
+              <span class="label-text">Lastname
+              </span>
+            </div>
+            <input type="text" placeholder="Enter your lastname" class="input input-bordered w-full max-w-xs" id="lastname" required>
+          <div class="label">
+            <span class="label-text">Email
+            </span>
+          </div>
+          <input type="email" placeholder="Enter your Email" class="input input-bordered w-full max-w-xs" id="email" required>
+          
+          <div class="label">
+              <span class="label-text">Password
+              </span>
+            </div>
+            <input type="password" placeholder="Enter your password" class="input input-bordered w-full max-w-xs" id="password" required>
+            
+          
+            <input id="profileimg" type="file" class="file-input file-input-bordered file-input-primary w-full max-w-xs mt-3" />
+          
+        </label> 
+        <button class="btn btn-primary mt-3 text-center">register</button>      
+      
+  <div class="text-center mt-3 mx-auto">
+      <a class="text-blue" href="login.html">Sign in</a>
+      <span>Already a User</span>
+  </div>
+
+          </div>
+        </form>
+    </div>
+ 
+    
+           <!-- form field -->
+
+
+
+
+           <div id="sucess-modal">
+
+           </div>
+
+
+
+
+
+
+
+    
+
+    <script type="module" src="register.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
